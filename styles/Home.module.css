@@ -1,3 +1,9 @@
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   padding: 0 2rem;
 }
