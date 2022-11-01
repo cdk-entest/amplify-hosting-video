@@ -59,7 +59,7 @@ amplfy add hosting
 
 check the package.json
 
-```json
+```bash
 next build && next export
 ```
 
