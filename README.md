@@ -73,24 +73,24 @@ amplfy delete
 
 next.config.json
 
-```json
+```tsx
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
   typescript: {
-    ignoreBuildErrors: true
+    ignoreBuildErrors: true,
   },
 
   eslint: {
-    ignoreDuringBuilds: true
+    ignoreDuringBuilds: true,
   },
 
   images: {
-    unoptimized: true
-  }
-}
-module.exports = nextConfig
+    unoptimized: true,
+  },
+};
+module.exports = nextConfig;
 ```
 
 ## Create NextJS Project
