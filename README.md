@@ -74,7 +74,6 @@ amplfy delete
 next.config.json
 
 ```json
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
